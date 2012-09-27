@@ -1718,7 +1718,7 @@ var xheditor=function(textarea,options)
 				if(data.err)alert(data.err);
 				else
 				{
-					arrMsg.push(data.msg);
+					arrMsg.push(data);
 					bOK=true;//继续下一个文件上传
 				}
 			}
